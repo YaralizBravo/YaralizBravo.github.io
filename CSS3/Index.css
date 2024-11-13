@@ -1,0 +1,369 @@
+body{
+    background-color: #ffe9fe;
+}
+h1{
+    text-align: center;
+    color: #af7ac5 ;    
+    font-size: 40px;  
+    font-family: Cambria;
+}
+.ul-a{
+    font-family: Helvetica;
+    text-decoration: none ;
+    color: black;
+}
+.ul-a:hover{
+    text-decoration: underline;
+    color: #af7ac5  ;
+}
+
+.contenedorez{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    left: 8%;
+    float: left ; 
+}
+.cultura img{
+    width: 100%;
+    height: 100%;
+}
+.cul{
+    transition:0.5s;
+    object-fit: cover;
+}
+.cul:hover{
+    transform: scale(1.1);
+}
+.a{
+    text-align: center;
+    width: 170px;
+    height: 44px;
+    position: absolute;
+    top: 63%;
+    left: 0%; 
+    background: #bd00ff;
+    font-size: 40px; 
+    text-decoration: none ;
+    transition: 0.5s linear;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.a:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.b{
+    font-size: 35px;
+    position: absolute;
+    top: 70%;
+    left: 1%; 
+    text-align: right;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.b:hover{
+    text-decoration: underline;
+}
+.c{
+    content: center;
+    font-size: 20px;
+    position: absolute;
+    top: 87%;
+    right: 1%; 
+    text-align: right;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-family: Helvetica;
+
+}
+.c:hover{
+    text-decoration: underline;
+}
+.d{
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    right: 1%; 
+    text-align: right;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+
+.contenedores{
+    float: right;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    right: 8%;
+}
+.politica img{
+    width: 100%;
+    height: 100%;
+}
+.pol{
+    transition:0.5s;
+    object-fit: cover;
+}
+.pol:hover{
+    transform: scale(1.1);
+}
+.a1{
+    text-align: center;
+    width: 150px;
+    height: 32px;
+    position: absolute;
+    top: 45%;
+    left: 0%; 
+    background:  #bd00ff;
+    font-size: 28px; 
+    text-decoration: none ;
+    transition: 0.5s linear;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.a1:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.b1{
+    font-size: 28px;
+    position: absolute;
+    top: 1%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color: #212f3d;
+    font-family: Helvetica;
+}
+.b1:hover{
+    text-decoration: underline;
+}
+.c1{
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color:#212f3d;
+    font-family: Helvetica;
+}
+.c1:hover{
+    text-decoration: underline;
+}
+.d1{
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color: #212f3d;
+    font-family: Helvetica;
+}
+.poli{
+    top: 380px;
+    left: 670px;
+    width: 500px;
+    height: 140px;
+    background: white;
+    position: absolute ;
+}
+
+.contenido{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    right: 8%;
+    margin-top: 55px;
+}
+.aconte img{
+    width: 100%;
+    height: 100%;
+}
+.aco{
+    width: 100px;
+    height: 400px;
+    transition:0.5s;
+    object-fit: cover;
+}
+.aco:hover {
+    transform: scale(1.1);
+}
+.a2{
+    text-align: center;
+    width: 260px;
+    height: 32px;
+    position: absolute;
+    top: 45%;
+    left: 0%; 
+    background:  #bd00ff;;
+    font-size: 28px; 
+    text-decoration: none ;
+    transition: 0.5s linear;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.a2:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.b2{
+    font-size: 27px;
+    position: absolute;
+    top: 10%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color: #212f3d;
+    font-family: Helvetica;
+}
+.b2:hover{
+    text-decoration: underline;
+}
+.c2{
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s ;
+    color: #212f3d;
+    font-family: Helvetica;
+}
+.c2:hover{
+    text-decoration: underline;
+}
+.d2{
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s ;
+    color: #212f3d;
+    font-family: Helvetica;
+}
+.acon{
+    top: 735px;
+    left: 670px;
+    width: 500px;
+    height: 150px;
+    background: white;
+    position: absolute ;
+}
+
+.contenedor{
+    width: 1115px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    top: 20px;
+}
+.deportes img{
+    width: 100%;
+    height: 100%;
+}
+.dep{
+    width: 100px;
+    height: 400px;
+    transition:0.5s;
+    object-fit: cover;
+}
+.dep:hover{
+    transform: scale(1.1);
+}
+.a3{
+    width: 150px;
+    height: 32px;
+    position: absolute;
+    top: 55%;
+    left: 0%; 
+    background: #bd00ff;
+    font-size: 30px; 
+    text-decoration: none ;
+    transition: 0.5s linear;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.a3:hover{
+ -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+ box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}   
+.b3{
+    font-size: 40px;
+    position: absolute;
+    top: 65%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.b3:hover{
+    text-decoration: underline;
+}
+.c3{
+    font-size: 20px;
+    position: absolute;
+    top: 88%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    color: #d6dbdf;
+    font-family: Helvetica;
+}
+.c3:hover{
+    text-decoration: underline;
+}
+.d3{
+    font-size: 20px;
+    position: absolute;
+    top: 88%;
+    left: 1%; 
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s ;
+    color: #ecf0f1;
+    font-family: Helvetica;
+}
+.enlaces{
+    width: 1330px;
+    height: 1140px;
+}
+
+footer{
+    min-height: 60vh;
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+    background-color:#f2d7d5  ;
+    color:#fff;
+    text-align: center;
+}
+.año{
+    color:#212f3d;
+}
+.raya{
+    margin-top: 70px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 40px;
+    transition: 0.5s; 
+    color:#212f3d;
+    transition: 0,5s ;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
